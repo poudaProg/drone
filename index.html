@@ -4,39 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site 4</title>
+    <title>L'oeil du Drone - Services de drone pour vos cérémonies</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+</head>
+
 <body>
     <header>
         <nav class="nav">
             <div class="logo">
                 <img src="images/Drone-Logo-Graphics-69038358-1-1-580x387.jpg" alt="">
             </div>
-            <div class="menu">
+            <div class="menu" id="menu">
                 <ul>
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="#">A propos</a></li>
-                    <li><a href="#">Galeries</a></li>
-                    <li><a href="#">Nos tarifs</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Se connecter</a></li>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#apropos">A propos</a></li>
+                    <li><a href="#galeries">Galeries</a></li>
+                    <li><a href="#contact">Nos tarifs</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#connexion">Se connecter</a></li>
                 </ul>
             </div>
             <!-- <div class="panier">
         <i class="fa-solid fa-cart-shopping fa-xl"></i>
     </div> -->
-            <div class="connexion">
+            <div class="connexion" id="connexion">
                 <i class="fa-solid fa-user fa-xl"></i>
             </div>
 
-            <div class="menu-burguer"><i class="fa-solid fa-bars fa-xl"></i>
+            <div class="menu-burguer" id="menu-burger"><i class="fa-solid fa-bars fa-xl"></i>
             </div>
 
         </nav>
 
-        <div class="gros-titre">
+        <div class="gros-titre" id="accueil">
             <img class="img-accueil" src="images/beatriz-perez-moya-M2T1j-6Fn8w-unsplash.jpg" alt="">
             <h1>L'oeil du Drone</h1>
             <h3>Toutes cérémonies vu d'en haut</h3>
@@ -45,52 +47,104 @@
 
     <div class="main">
         <div id="button">Reserver</div>
-        <section class="section1" style="margin-top: 90px;">
+        <section class="section1">
             <figure>
-                <img class="bandeau-img" style="width:370px ;height:500px" src="images/img1-section1.jpg" alt="">
+                <img class="bandeau-img" src="images/img1-section1.jpg" alt="Photo aérienne mariage">
                 <figcaption>
-                    TITRE
+                    Mariage
                 </figcaption>
             </figure>
             <figure>
-                <img class="bandeau-img" style="width:370px ;height:500px" src="images/img2-section1.jpg" alt="">
+                <img class="bandeau-img" src="images/img2-section1.jpg" alt="Photo aérienne événement">
                 <figcaption>
-                    TITRE
+                    Événement
                 </figcaption>
             </figure>
             <figure>
-                <img class="bandeau-img" style="width:370px ;height:500px" src="images/img3-section1.jpg" alt="">
+                <img class="bandeau-img" src="images/img3-section1.jpg" alt="Photo aérienne célébration">
                 <figcaption>
-                    TITRE
+                    Célébration
                 </figcaption>
             </figure>
         </section>
        
-        <section class="section2" style="margin-top:20px">
+        <section class="section2" id="apropos">
             <hr class="hr-apropos-de-nous" width="300px">
             <h2 class="titre-section2">
                 A propos de nous
             </h2>
-            <p class="para1-a-propos-de-nous">
-                Corporis sequi illo voluptas accusantium eligendi obcaecati cupiditate quaerat.
-                Voluptatibus voluptate, debitis velit sunt sequi eius dolorum reprehenderit magnam officia pariatur?
-                Exercitationem.
-                <br>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis exercitationem
-                non aliquam repellat, nam, ducimus neque cumque fuga voluptatem voluptates
-                libero accusamus tempore doloribus deleniti, delectus eligendi? Repudiandae, illum
-                praesentium.
-                <br>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, perferendis odit.
-                Vel temporibus sed tenetur ipsa corrupti exercitationem, ipsum dolore nostrum eius quis cum animi.
-                Quisquam recusandae minus eos maxime!
-            </p>
+            <div class="apropos-container">
+                <p class="para1-a-propos-de-nous">
+                    Corporis sequi illo voluptas accusantium eligendi obcaecati cupiditate quaerat.
+                    Voluptatibus voluptate, debitis velit sunt sequi eius dolorum reprehenderit magnam officia pariatur?
+                    Exercitationem.
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis exercitationem
+                    non aliquam repellat, nam, ducimus neque cumque fuga voluptatem voluptates
+                    libero accusamus tempore doloribus deleniti, delectus eligendi? Repudiandae, illum
+                    praesentium.
+                    <br>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, perferendis odit.
+                    Vel temporibus sed tenetur ipsa corrupti exercitationem, ipsum dolore nostrum eius quis cum animi.
+                    Quisquam recusandae minus eos maxime!
+                </p>
+                <div class="team-images">
+                    <div class="team-member">
+                        <img src="images/beatriz-perez-moya-M2T1j-6Fn8w-unsplash.jpg" alt="Membre de l'équipe 1">
+                    </div>
+                    <div class="team-member team-member-2">
+                        <img src="images/beatriz-perez-moya-M2T1j-6Fn8w-unsplash.jpg" alt="Membre de l'équipe 2">
+                    </div>
+                </div>
+            </div>
         </section>
-    </div>
 
-    <footer>
+        <section class="section3" id="galeries">
+            <hr class="hr-galerie" width="300px">
+            <h2 class="titre-section3">Galeries</h2>
+            <div class="galerie-grid">
+                <div class="galerie-item">
+                    <img src="images/img1-section1.jpg" alt="Photo aérienne 1">
+                    <div class="galerie-overlay">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <div class="galerie-item">
+                    <img src="images/img2-section1.jpg" alt="Photo aérienne 2">
+                    <div class="galerie-overlay">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <div class="galerie-item">
+                    <img src="images/img3-section1.jpg" alt="Photo aérienne 3">
+                    <div class="galerie-overlay">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <div class="galerie-item">
+                    <img src="images/beatriz-perez-moya-M2T1j-6Fn8w-unsplash.jpg" alt="Photo aérienne 4">
+                    <div class="galerie-overlay">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <div class="galerie-item">
+                    <img src="images/img1-section1.jpg" alt="Photo aérienne 5">
+                    <div class="galerie-overlay">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <div class="galerie-item">
+                    <img src="images/img2-section1.jpg" alt="Photo aérienne 6">
+                    <div class="galerie-overlay">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <footer id="contact">
         <p class="footer">
-            <i class="fa-solid fa-copyright"></i> 2025 - Tous droits réservés
+            <i class="fa-solid fa-copyright"></i> 2026 - Tous droits réservés
         </p>
     </footer>
     <script src="app.js"></script>
